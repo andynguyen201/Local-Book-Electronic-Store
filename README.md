@@ -28,14 +28,14 @@ Assumptions & Limitations:
 - Assume user only input year in digits but that limit user from inputing year with a letter i.e. 123r
 
 How to test for correctness:
-for Add:
+For Add:
 - Input something different from the options promted on the screen
 - Enter ID with more or less than 6 digits 
 - 2nd time enter the same ID 
 - Leave the description of the product empty
 - Enter year less than 1000 or more than 9999
 
-for search:
+For search:
 - Enter ID but either less than 6 digits or not numbers
 - Enter years(start and end) with a year not in between 1000-9999 or not numbers
 - Leave 1 or 2 or all the entries empty
